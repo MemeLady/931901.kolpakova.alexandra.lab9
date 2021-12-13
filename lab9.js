@@ -1,5 +1,5 @@
 function insert(num){
-	num.style='black';
+	document.form.textView.style.color='black';
 	if ((num == '+') || (num == '-') || (num == '*') || (num == '/')){
 		document.form.textView.value = document.form.textView.value + " " + num + " ";
 		document.form.textView.style.color='gray';
